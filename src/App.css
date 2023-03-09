@@ -1,0 +1,39 @@
+.counter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align:center ;
+    row-gap: 20px;
+}
+ 
+.counter h1 {
+    font-size: 40px;
+    font-family:cursive ;
+}
+ .counter__output {
+    font-size:40px;
+    padding: 0.1rem;
+    background-color: palevioletred;
+    width: 20%;
+    color: black;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.control__btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(16,0,54);
+    cursor: pointer;
+ }
+
+ .control__btn:hover {
+    background-color: rgb(1,9,31);
+    color: white;
+}
